@@ -31,7 +31,7 @@ function Proyects() {
             variants={{
                 hidden: { opacity: 0, y: -50 },
                 visible: { opacity: 1, y: 0 },
-            }}><Image className='projects-img' src={cinco} alt='/'></Image>
+            }}><Image className='projects-img' src={cinco} alt='/' priority={false}></Image>
             <div className='projects-card-hover'>
               <h3>Property Finder</h3>
               <p>React JS</p>
@@ -51,7 +51,7 @@ function Proyects() {
                 hidden: { opacity: 0, y: -50 },
                 visible: { opacity: 1, y: 0 },
             }}>
-            <Image className='projects-img' src={seis} alt='/'></Image>
+            <Image className='projects-img' src={seis} alt='/' priority={false}></Image>
             <div className='projects-card-hover'>
               <h3>Property Finder</h3>
               <p>React JS</p>
@@ -71,7 +71,7 @@ function Proyects() {
                 hidden: { opacity: 0, y: -50 },
                 visible: { opacity: 1, y: 0 },
             }}>
-            <Image className='projects-img' src={siete} alt='/'></Image>
+            <Image className='projects-img' src={siete} alt='/' priority={false}></Image>
             <div className='projects-card-hover'>
               <h3>Property Finder</h3>
               <p>React JS</p>

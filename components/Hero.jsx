@@ -1,7 +1,7 @@
 import React from 'react'
-import Image from 'next/image'
-import futureimg from "@/assets/future.jpg"
-import Link from 'next/link'
+// import Image from 'next/image'
+// import futureimg from "@/assets/future.jpg"
+// import Link from 'next/link'
 import TypewriterComponent from 'typewriter-effect'
 
 function Hero() {

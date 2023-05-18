@@ -1,5 +1,5 @@
 import React from 'react'
-import profileimg from "@/assets/profile-pic.JPG"
+import profileimg from "@/assets/profile-pic.jpg"
 import Image from 'next/image'
 import { Link } from 'react-scroll'
 import { motion } from 'framer-motion'

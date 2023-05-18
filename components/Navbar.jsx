@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-scroll"
 import { RxHamburgerMenu } from "react-icons/rx"
 import { MdClose } from "react-icons/md"
-import { useState } from 'react'
+// import { useState } from 'react'
 import { FocusOn } from 'react-focus-on'
 
 function Navbar( { responsive, changeResponsive}) {
@@ -23,8 +23,8 @@ function Navbar( { responsive, changeResponsive}) {
                   
           <ul className={responsive ? "navbar-menu-container-responsive" : "responsive-hidden"} onClick={changeResponsive}>
             {responsive ? <FocusOn
-          gapMode=''
-          noIsolation
+          // gapMode=''
+          // noIsolation
           
             >
             

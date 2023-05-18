@@ -25,27 +25,27 @@ function Skills() {
         <p>I want to help you turn your idea into reality using these amazing technologies:</p>
         <div className='skills-container-grid'>
             <div className='skills-card-container'>
-                <Image src={html}  width={80} height={80}></Image>
+                <Image src={html}  width={80} height={80} alt="html"></Image>
                 <h3>HTML</h3>
             </div>
             <div className='skills-card-container'>
-                <Image src={css} className="logo-figma"></Image>
+                <Image src={css} className="logo-figma" alt="css"></Image>
                 <h3>CSS</h3>
             </div>
             <div className='skills-card-container'>
-                <Image src={javascript} width={80} height={80}></Image>
+                <Image src={javascript} width={80} height={80} alt="javascript"></Image>
                 <h3>Javascript</h3>
             </div>
             <div className='skills-card-container'>
-                <Image src={react} className="logo-figma"></Image>
+                <Image src={react} className="logo-figma" alt="react"></Image>
                 <h3>React</h3>
             </div>
             <div className='skills-card-container'>
-                <Image src={figma} className="logo-figma"></Image>
+                <Image src={figma} className="logo-figma" alt="figma"></Image>
                 <h3>Figma</h3>
             </div>
             <div className='skills-card-container'>
-                <Image src={github} className="logo-figma"></Image>
+                <Image src={github} className="logo-figma" alt="github"></Image>
                 <h3>Github</h3>
             </div>
         </div>
