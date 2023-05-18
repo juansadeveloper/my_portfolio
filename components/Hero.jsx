@@ -11,7 +11,7 @@ function Hero() {
             <h1>Hello, </h1>
             <h1>I´m Santiago.</h1>
             <h1>A Web Developer.</h1>
-            <h1>
+            <h1 className='hero-message'>
               <TypewriterComponent 
                 options={{
                   autoStart: true,

@@ -305,6 +305,11 @@ a:focus{
     text-align: center;
     max-width: 300px;
   }
+
+  .hero-message {
+    /* color: #003EAA; */
+    font-size: 22px !important;
+  }
 }
 
 
