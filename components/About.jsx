@@ -1,5 +1,5 @@
 import React from 'react'
-import profileimg from "@/assets/profile-pic.jpg"
+// import profileimg from "@/assets/profile-pic.jpg"
 import Image from 'next/image'
 import { Link } from 'react-scroll'
 import { motion } from 'framer-motion'
@@ -18,8 +18,8 @@ function About({ changeAbout}) {
           transition={{ duration: 5}}        >
           <Image src={profileimg} alt="profile-pic" className='profile-img' onClick={changeAbout}></Image>
         </motion.div> */}
-          <Image src={profileimg} alt="profile-pic" className='profile-img' onClick={changeAbout}
-          ></Image>
+          {/* <Image src={profileimg} alt="profile-pic" className='profile-img' onClick={changeAbout}
+          ></Image> */}
         
         <p >I am always excited to work on new projects, message me and let's talk.</p>
         <Link  to="contact" smooth={true} offset={0} duration={700}><button className='normal-button'>Contact Me</button></Link>
