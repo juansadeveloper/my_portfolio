@@ -10,14 +10,14 @@ function About({ changeAbout}) {
         <h2>About me</h2>
         <p>I have 2 years of experience in web development.</p>   
         <p>I´m a creative person who wants to add value to the world.</p>
-        <motion.div
+        {/* <motion.div
 
           initial={{ opacity: 0}}
           whileInView={{ opacity: 1}}
           viewport={{ once: true }}
-          transition={{ duration: 5}}        >
-          <Image src="/profile-pic.jpg" alt="profile-pic" priority={false} width={100} height={100} className='profile-img' onClick={changeAbout}></Image>
-        </motion.div>
+          transition={{ duration: 5}}        > */}
+          <Image src="/profile-pic.jpg" alt="profile-pic" priority={false} width={1000} height={1000} className='profile-img' onClick={changeAbout}></Image>
+        {/* </motion.div> */}
           {/* n */}
         
         <p >I am always excited to work on new projects, message me and let's talk.</p>
