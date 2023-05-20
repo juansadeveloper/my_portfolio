@@ -10,7 +10,7 @@ function AboutInfo() {
             <div style={{margin: "10px 0px 20px", lineHeight: "40px"}}>
             <ul>
             <li style={{color: "blue", fontSize: "24px"}}><p>I born and grow up in Argentina.</p></li>
-            <li style={{color: "blue", fontSize: "24px"}}><p>I studied a university degree in accounting and then started to travel and moved to Europe, (now I´m currently living in Ireland).</p></li> 
+            <li style={{color: "blue", fontSize: "24px"}}><p>I studied a university degree in accounting and then started to travel and moved to Europe, (now I am currently living in Ireland).</p></li> 
             <li style={{color: "blue", fontSize: "24px"}}><p>I speak spanish and english (and a bit of italian).</p></li> 
             <li style={{color: "blue", fontSize: "24px"}}><p>I like to learn languages and get to know people from different parts of the world experiencing divergent cultures.</p> </li>
             <li style={{color: "blue", fontSize: "24px"}}><p>I have a curious mind.</p></li> 
