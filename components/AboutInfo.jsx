@@ -6,7 +6,7 @@ function AboutInfo() {
     <div className='about-container' name="about">
         <h2>More about me</h2>
         <div className='about-extra'>        
-        <h2 className='about-title'>I´m a traveler. I´m creative.</h2>   
+        {/* <h2 className='about-title'>I´m a traveler. I´m creative.</h2>    */}
             <div style={{margin: "10px 0px 20px", lineHeight: "40px"}}>
             <ul>
             <li style={{color: "blue", fontSize: "24px"}}><p>I born and grow up in Argentina.</p></li>
