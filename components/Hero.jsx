@@ -1,7 +1,7 @@
 import React from 'react'
 // import Image from 'next/image'
 // import futureimg from "@/assets/future.jpg"
-import Link from 'next/link'
+// import Link from 'next/link'
 import TypewriterComponent from 'typewriter-effect'
 
 function Hero() {
@@ -22,7 +22,7 @@ function Hero() {
               />
             </h1>
             <p>I use the latest technologies to design beautiful and functional websites. Please take a look and feel free to contact me.</p>
-            <Link href="/"><button className='hero-btn' >My Resume</button></Link>
+            <button className='hero-btn'>My Resume</button>
         </div>
         {/* <div className='right-container'>
             <Link href="/future" className='future-link'>
