@@ -9,7 +9,7 @@ function Hero() {
     <div className='hero-container' >
         <div className='left-container'>
             <h1>Hello, </h1>
-            <h1>I´m Santiago.</h1>
+            <h1>I am Santiago.</h1>
             <h1>A Web Developer.</h1>
             <h1 className='hero-message'>
               <TypewriterComponent 
@@ -22,7 +22,7 @@ function Hero() {
               />
             </h1>
             <p>I use the latest technologies to design beautiful and functional websites. Please take a look and feel free to contact me.</p>
-            <Link href="/"><button className='hero-btn' >My Resume</button></Link>
+            <Link href="/my-cv" target='_blank'><button className='hero-btn' >My Resume</button></Link>
         </div>
         {/* <div className='right-container'>
             <Link href="/future" className='future-link'>

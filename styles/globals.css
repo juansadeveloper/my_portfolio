@@ -409,7 +409,7 @@ a:focus{
    }  
  }
 
- /*!   ------------         PROYECTS            --------------     */
+ /*!   ------------------------------------------------------------------         PROYECTS            */
 
 .proyects-container{
   /* height: 100vh; */
@@ -614,7 +614,7 @@ a:focus{
 
 
 
- /*!   ------------         CONTACT           --------------     */
+ /*!   --------------------------------------------------------------------         CONTACT             */
 
  .contact-container{
   height: 100vh;
@@ -767,7 +767,7 @@ a:focus{
 }
 
 
- /*!   ------------         FUTURE            --------------     */
+ /*!   ------------------------------------------------------------------------         FUTURE              */
 
  .future-container{
   height: 100vh;
@@ -824,7 +824,7 @@ a:focus{
   color: #131918;
 }
 
- /*!   ------------         CLOSE            --------------     */
+ /*!   ---------------------------------------------------------------------         CLOSE                 */
 
 .close-container{
   background-color: #ffffff;
@@ -1260,4 +1260,115 @@ font-weight: 400;
   100% {
     box-shadow: 0px 0px 10px 6px #eeeeee11;
   }
+}
+
+
+/*!   ----------------------------------------------------------------              MY-CV               */
+
+.cv-container{
+  /* height: 100vh; */
+  background-color: #f9f9f9;
+  background: linear-gradient(0.31deg, #003EAA 0.29%, #0f264a 100.4%);
+  text-align: center;
+  padding: 20px;
+  color: #eee;
+}
+
+.cv-container h1{
+  padding-top: 50px;
+}
+
+.cv-about-container{
+  max-width: 840px;
+  margin: 50px auto;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #eee;
+  color: #131918;
+  text-align: left;
+}
+
+.cv-about-container h2{
+  margin-bottom: 20px;
+}
+.cv-about-container p{
+  margin-bottom: 10px;
+}
+
+
+.cv-contact-container{
+  max-width: 840px;
+  margin: 50px auto;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #eee;
+  color: #131918;
+  text-align: left;
+}
+
+.cv-contact-container h2{
+  margin-bottom: 20px;
+}
+.cv-contact-container P{
+  margin-bottom: 10px;
+}
+
+.cv-skills-container{
+  max-width: 840px;
+  margin: 50px auto;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #eee;
+  color: #131918;
+  text-align: left;
+}
+
+.cv-skills-container h2{
+  margin-bottom: 20px;
+}
+.cv-skills-container P{
+  margin-bottom: 10px;
+}
+
+.cv-education-container{
+  max-width: 840px;
+  margin: 50px auto;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #eee;
+  color: #131918;
+  text-align: left;
+}
+
+.cv-education-container h2{
+  margin-bottom: 20px;
+}
+.cv-education-container h3{
+  margin-bottom: 10px;
+}
+
+.cv-experiencie-container{
+  max-width: 840px;
+  margin: 50px auto;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #eee;
+  color: #131918;
+  text-align: left;
+}
+
+.cv-experiencie-container h2{
+  margin-bottom: 20px;
+}
+
+.work-experiencie-card{
+  padding: 10px;
+}
+
+.work-experiencie-card h3{
+  margin-bottom: 10px;
+}
+
+.cv-extra-container{
+  padding-bottom: 50px;
 }
