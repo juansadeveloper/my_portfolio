@@ -11,7 +11,7 @@ export default function mycv() {
           <h2>ABOUT ME</h2>
           <p>I´m kind and easy-going person.</p>
           <p>In my daily life I like to read, journal and workout.</p> 
-          <p>I have an strong taste for traveling and learning languages. I like to move.</p> 
+          <p>I have a strong taste for traveling and learning languages. I like to move.</p> 
           <p>At the moment I´m looking forward to learn and grow professionally.</p>
           <p>I´m based in Europe (currently Ireland but open to change location/country).</p>
         </div>
