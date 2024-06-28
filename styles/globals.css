@@ -28,7 +28,7 @@ a {
 }
 
 a:focus{
-  color: #003EAA; /*VERSION REAL APARECE EN AZUL CLARO CADA LINK*/
+  color: black; /*VERSION REAL APARECE EN AZUL CLARO CADA LINK*/
  /* color: #4d4d4e; */
 }
 
