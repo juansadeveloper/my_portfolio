@@ -104,7 +104,7 @@ function Proyects() {
           </div>
           <div className='proyects-contact'>
             <p style={{fontWeight: "600"}}>Want to make a project together?</p>
-            <button className='text'>Let me know</button>
+            <Link  to="contact" smooth={true} offset={0} duration={700}><button className='text' style={{color: "black"}}>Let me know</button></Link>
           </div>
         </div>
     </div>
