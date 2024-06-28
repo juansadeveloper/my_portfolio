@@ -23,12 +23,12 @@ body {
 
 
 a {
-  color: black;
+  color: inherit;
   text-decoration: none;
 }
 
 a:focus{
-  color: black; /*VERSION REAL APARECE EN AZUL CLARO CADA LINK*/
+  color: #003EAA; /*VERSION REAL APARECE EN AZUL CLARO CADA LINK*/
  /* color: #4d4d4e; */
 }
 
