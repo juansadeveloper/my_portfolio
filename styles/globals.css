@@ -574,9 +574,11 @@ a:focus{
 .proyects-container button:hover{
   background-color: #122f5a;
   background-color: #003EAA;
-  color: #eee;
+  color: #eee !important;
   border: 1px solid #003EAA;
 }
+
+
 
 .projects-grid-container{
   display: grid;
@@ -625,17 +627,7 @@ a:focus{
     margin-top: 50px;
   }
 
-  .text {
-    color: #000000 !important;
-  }
-
-  .text a{
-    color: #000000 !important;
-  }
-
-  .text :visited{
-    color: #000000;
-  }
+ 
 
   /* .proyects-container button{
     margin-top: 6px;
