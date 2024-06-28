@@ -6,10 +6,10 @@ import uno from "@/assets/projects/uno.jpg"
 import dos from "@/assets/projects/dos.jpg"
 import tres from "@/assets/projects/tres.jpg"
 import cuatro from "@/assets/projects/cuatro.jpg"
-import cinco from "@/assets/projects/cinco.jpg"
-import seis from "@/assets/projects/siete.jpg"
-import siete from "@/assets/projects/seis.jpg"
-import ocho from "@/assets/projects/ocho.jpg"
+import cinco from "@/assets/projects/tramites-europa.png"
+import seis from "@/assets/projects/hanna-yoga.png"
+import siete from "@/assets/projects/my-blog.png"
+import ocho from "@/assets/projects/nuevoaire.png"
 // import uno from "@/assets/profile-pic.JPG"
 // import ProjectCard from './ProjectCard'
 
@@ -33,10 +33,10 @@ function Proyects() {
                 visible: { opacity: 1, y: 0 },
             }}><Image className='projects-img' src={cinco} alt='/' priority={false}></Image>
             <div className='projects-card-hover'>
-              <h3>Property Finder</h3>
-              <p>React JS</p>
-              <a href='www.google.com'>
-                <p className='paa'>More info</p>
+              <h3>Trámites Europa</h3>
+              <p>Next JS</p>
+              <a href='https://tramites-europa-new.vercel.app/' target="blank">
+                <p className='paa'>Visit</p>
               </a>
             </div>
           </motion.div>
@@ -53,10 +53,10 @@ function Proyects() {
             }}>
             <Image className='projects-img' src={seis} alt='/' priority={false}></Image>
             <div className='projects-card-hover'>
-              <h3>Property Finder</h3>
-              <p>React JS</p>
-              <a href='www.google.com'>
-                <p className='paa'>More info</p>
+              <h3>Yoga Website</h3>
+              <p>Next JS</p>
+              <a href='https://hannah-yoga-website.vercel.app/' target="blank">
+                <p className='paa'>Visit</p>
               </a>
             </div>
             </motion.div>
@@ -73,10 +73,10 @@ function Proyects() {
             }}>
             <Image className='projects-img' src={siete} alt='/' priority={false}></Image>
             <div className='projects-card-hover'>
-              <h3>Property Finder</h3>
+              <h3>My blog</h3>
               <p>React JS</p>
-              <a href='www.google.com'>
-                <p className='paa'>More info</p>
+              <a href='https://my-blog-sage-seven.vercel.app/' target="blank">
+                <p className='paa'>Visit</p>
               </a>
             </div>
             </motion.div>
@@ -93,10 +93,10 @@ function Proyects() {
             }}>
             <Image className='projects-img' src={ocho} alt='/'></Image>
             <div className='projects-card-hover'>
-              <h3>Property Finder</h3>
-              <p>React JS</p>
-              <a href='www.google.com'>
-                <p className='paa'>More info</p>
+              <h3>Complejo Nuevo Aire</h3>
+              <p>Next JS</p>
+              <a href='https://www.nuevoaire.com.ar/' target="blank">
+                <p className='paa'>Visit</p>
               </a>
             </div>
             </motion.div>

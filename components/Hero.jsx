@@ -1,8 +1,9 @@
 import React from 'react'
 // import Image from 'next/image'
 // import futureimg from "@/assets/future.jpg"
-import Link from 'next/link'
+
 import TypewriterComponent from 'typewriter-effect'
+import { Link } from 'react-scroll'
 
 function Hero() {
   return (
@@ -22,7 +23,8 @@ function Hero() {
               />
             </h1>
             <p>I use the latest technologies to design beautiful and functional websites. Please take a look and feel free to contact me.</p>
-            <Link href="/my-cv" target='_blank'><button className='hero-btn' >My Resume</button></Link>
+            <Link to="proyects" smooth={true} offset={0} duration={700}><button className='hero-btn' >My Projects</button></Link>
+            
         </div>
         {/* <div className='right-container'>
             <Link href="/future" className='future-link'>

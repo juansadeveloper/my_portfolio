@@ -5,6 +5,9 @@
     font-family: "inter";
 }
 
+body {
+  scroll-behavior: smooth;
+}
 
 * {
   box-sizing: border-box;
@@ -323,6 +326,10 @@ a:focus{
   background-color: #1F2524;
   color: #eee;
   /* padding-top: 200px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
  }
 
  .profile-img{
@@ -342,7 +349,7 @@ a:focus{
  }
 
  .about-container h2{
-  padding-top: 50px;
+  padding-top: 0px;
   margin-bottom: 20px;
   font-size: 44px;
  }
@@ -421,10 +428,13 @@ a:focus{
   color: #131918;
   display: grid;
   place-items: center;
+  
 }
 
 .proyects-subcontainer{
   max-width: 1240px;
+  
+  
 }
 
 
@@ -442,6 +452,7 @@ a:focus{
 .proyects-head p{
   font-size: 18px;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 /* .proyects-box-container{
@@ -461,7 +472,8 @@ a:focus{
   display: grid;
   grid-template-columns: auto auto;
   border-radius: 4px;
-  /* box-shadow: 0px 4px 10px 4px #3d3d3d44; */
+  box-shadow: 0px 4px 10px 4px #3d3d3d2a;
+  
   /* padding: 4px; */
 }
 .proyects-box-container:hover{
@@ -535,6 +547,7 @@ a:focus{
 
 .proyects-contact p{
   font-size: 18px;
+  padding-top: 30px;
 }
 
 .proyects-container button{
@@ -565,6 +578,7 @@ a:focus{
   gap: 16px;
   margin-top: 40px;
   margin-bottom: 40px;
+
 }
 
 
@@ -595,7 +609,7 @@ a:focus{
     display: grid;
     grid-template-columns: 300px 300px;
     grid-template-rows: 230px 230px;
-    gap: 14px;
+    gap: 24px;
     margin-top: 0px;
     margin-bottom: 0px;
     /* margin-bottom: 30px; */
@@ -623,6 +637,10 @@ a:focus{
   background-color: #003EAA;
   color: #eee;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-head{

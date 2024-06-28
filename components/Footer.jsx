@@ -13,7 +13,7 @@ function footer() {
   return (
     <div className='footer-container'>
         <ul className='footer-ul'>
-            <a href='https://api.whatsapp.com/send/?phone=34674716133&text&type=phone_number&app_absent=0' target="_blank"><li><BsWhatsapp size={28}/></li></a>
+            <a href='https://api.whatsapp.com/send/?phone=353899696179&text&type=phone_number&app_absent=0' target="_blank"><li><BsWhatsapp size={28}/></li></a>
             <Link to="contact" smooth={true} offset={0} duration={700}><li><FiMail size={28}/></li></Link>
             <a href='https://www.instagram.com/juansapereira/' target="_blank"><li><BsInstagram  size={28}/></li></a>
             <a href='https://www.linkedin.com/in/santiago-pereira-dev' target="_blank"><li><BsLinkedin size={28}/></li></a>
