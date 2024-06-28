@@ -620,6 +620,14 @@ a:focus{
     margin-top: 50px;
   }
 
+  .text {
+    color: #000000 !important;
+  }
+
+  .text a{
+    color: #000000 !important;
+  }
+
   /* .proyects-container button{
     margin-top: 6px;
   } */
