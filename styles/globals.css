@@ -262,8 +262,13 @@ a:focus{
       width: 100%;
       padding: 0px;
       margin: 0px;
-      justify-content: center;
+      justify-content: start;
+      
       align-items: center;
+    }
+
+    .text-hero{
+      margin-top: 100px;
     }
 
     .hero-container{

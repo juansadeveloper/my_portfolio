@@ -9,7 +9,7 @@ function Hero() {
   return (
     <div className='hero-container' >
         <div className='left-container'>
-            <h1>Hello, </h1>
+            <h1 className='text-hero'>Hello, </h1>
             <h1>I am Santiago.</h1>
             <h1>A Web Developer.</h1>
             <h1 className='hero-message'>
